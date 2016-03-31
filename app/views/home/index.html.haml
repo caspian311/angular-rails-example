@@ -1,4 +1,4 @@
 %div{'ng-controller' => 'MainController'}
   %h1 {{ title }}
-  %div
-    Foo is {{ foo }}
+  %ul{ 'ng-repeat' => 'widget in widgets' }
+    %li {{ widget.name }} is {{ widget.value }}
