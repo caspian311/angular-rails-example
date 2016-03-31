@@ -12,6 +12,7 @@ gem 'haml-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'angularjs-rails'
+gem 'angular-rails-templates'
 
 group :development, :test do
   gem 'byebug'

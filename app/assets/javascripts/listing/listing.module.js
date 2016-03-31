@@ -1,5 +1,5 @@
 (function() {
-  var listing = angular.module('foo.listing', []);
+  var listing = angular.module('foo.listing', ['templates', 'foo.widgets']);
 
   listing.controller('MainController', ['$scope', '$http', function($scope, $http) {
     $scope.title = 'My Angular Rails example';
